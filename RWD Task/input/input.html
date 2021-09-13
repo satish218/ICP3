@@ -10,95 +10,80 @@ TODO:
 -->
 
 <html lang="en">
-  <head>
+<head>
     <title>RWD Task</title>
-    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div>
-      <div id="profile-picture">
-        <img
-          id="photo"
-          src="PlaceHolderImages/bean.jpg"
-          alt="Profile Picture"
-        />
-      </div>
-      <div id="details">
-        <h1 class="info">Satish Kumar Vakkanti</h1>
-        <h3 class="info">Frond End Developer</h3>
-      </div>
-    </div>
-    <hr />
-    <div id="html-pic" class="container">
-      <div class="row">
-        <div class="column">
-          <img id="html" src="PlaceHolderImages/Image.png" alt="HTML code" />
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <style>
+        hr {
+            height: 1px;
+            background-color: #886a6a;
+        }
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+<div class="profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div><img alt="PlaceHolderImage1" src="PlaceHolderImages/bean.jpg"></div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <h1 class="text-right">Satish Kumar Vakkanti</h1>
+                    <h3 class="text-right">Web Developer</h3>
+                </div>
+            </div>
         </div>
-      </div>
-      <!--1140x350,555x300,555x300-->
     </div>
-    <div>
-      <h2>Featured Work</h2>
-    </div>
-    <!-- <div class="row">
-    <div class="column">
-        <img class = 'work' alt="Apple App store icon" src="PlaceHolderImages/app1.png">
-        <h3>App1</h3>
-        <p><a href="#">Link to project</a></p>
-    </div>
-    <div class="column">
-        <img class = 'work' alt="Yellow Sunflower" src="PlaceHolderImages/app2.png">
-        <h3>App2</h3>
-        <p><a href="#">Link to project</a></p>
-    </div>
-    <div class="column">
-        <img class='work' alt="Bokeh Picture of sun" src="PlaceHolderImages/app3.png">
-        <h3>App3</h3>
-        <p><a href="#">Link to project</a></p>
-    </div>
-    <!-- <div>
-        <img alt="PlaceHolderImage3" src="PlaceHolderImages/a">
-        <h3>App4</h3>
-        <p><a href="#">Link to project</a></p>
-    </div>
-</div> -->
+</div>
 <div class="container">
     <div class="row">
-          <div class="col-4">
-            <img
-              class="work"
-              alt="Apple App store icon"
-              src="PlaceHolderImages/app1.png"
-            />
-            <h3>App1</h3>
-            <p><a href="#">Link to project</a></p>
-          </div>
-          <div class="col-4">
-            <img
-              class="work"
-              alt="Yellow Sunflower"
-              src="PlaceHolderImages/app2.png"
-            />
-            <h3>App2</h3>
-            <p><a href="#">Link to project</a></p>
-          </div>
-         <class="project-item">
-          <div class="col-4">
-            <img
-              class="work"
-              alt="Bokeh Picture of sun"
-              src="PlaceHolderImages/app3.png"
-            />
-            <h3>App3</h3>
-            <p><a href="#">Link to project</a></p>
-          </div>
+        <div class="col-sm-12">
+            <hr>
         </div>
-      <!-- <div>
-        <img alt="PlaceHolderImage3" src="PlaceHolderImages/a">
-        <h3>App4</h3>
-        <p><a href="#">Link to project</a></p>
-    </div> -->
     </div>
-  </body>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div>
+                <img class="img-responsive" style="width: 1140px; height: 350px" alt="PlaceHolderImage2" src="PlaceHolderImages/Image.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Featured Work </h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <img class="img-responsive" style="width: 555px; height: 300px" alt="PlaceHolderImage3" src="PlaceHolderImages/app1.png">
+            <h3>App1</h3>
+            <p><a href="https://github.com/satish218/demo" target="_blank">ICP1</a></p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-responsive" style="width: 555px; height: 300px" alt="PlaceHolderImage3" src="PlaceHolderImages/app2.png">
+            <h3>App2</h3>
+            <p><a href="https://github.com/satish218/ICP2" target="_blank">Google Recent tabs task</a></p>
+        </div>
+        <div class="col-sm-4">
+            <img class="img-responsive" style="width: 555px; height: 300px" alt="PlaceHolderImage3" src="PlaceHolderImages/app3.png">
+            <h3>App3</h3>
+            <p><a href="https://github.com/satish218/ICP3" target="_blank">Rock Paper Scissor</a></p>
+        </div>
+    </div>
+</div>
+</body>
 </html>

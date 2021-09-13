@@ -1,0 +1,75 @@
+* {
+    font-family: sans-serif;
+    background: #fbe8a6;
+}
+.main-content {
+    text-align: center;
+    margin-top: 30px;
+}
+.buttons {
+    border: red;
+    text-align: center;
+}
+.pick {
+    text-align: center;
+    margin-top: 20px;
+    color: darkviolet;
+}
+/*.options {*/
+/*    border-color: lavenderblush;*/
+/*    padding: 10px 30px;*/
+/*    background-color: darkolivegreen;*/
+/*    color: orange;*/
+/*    text-align: center;*/
+/*    font-size: large;*/
+/*}*/
+#result {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#sysytem-choice {
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    font-weight: bolder;
+}
+.score-table {
+    /*list-style: none;*/
+    /*display: table;*/
+    /*margin: auto;*/
+    /*text-align: left;*/
+    list-style: none;
+    display: table;
+    padding: 10px;
+    border: 1px solid lightcoral;
+    margin-left: 600px;
+}
+.images {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+#total-games {
+    text-align: center;
+}
+.reset {
+    text-align: center;
+    font-size: large;
+}
+.restart {
+    font-size: large;
+    background-color: limegreen;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-color: lightcoral;
+    color: white;
+}
+.options {
+    list-style: none;
+    align-items: center;
+}

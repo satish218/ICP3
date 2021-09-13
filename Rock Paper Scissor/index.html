@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissor</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="main-content">
+    <h1 class="title">Rock Paper Scissor</h1>
+</div>
+<div class="score">
+    <ul class="score-table">
+        <li>
+            <p id="your-score">Your Score: 0</p>
+        </li>
+        <li>
+            <p id="comp-score">System Score: 0</p>
+        </li>
+        <li>
+            <p id="tie">Tie: 0</p>
+        </li>
+    </ul>
+</div>
+<div class="pick">
+    <h3>Pick your Choice</h3>
+</div>
+<div class="buttons">
+    <button class="options" id="rock" onclick="rockfn()" title="Rock"><img class="images" src="images/rock.png"></button>
+    <button class="options" id="paper" onclick="paperfn()" title="Paper"><img class="images" src="images/paper.png"></button>
+    <button class="options" id="scissor" onclick="scissorfn()" title="Scissor"><img class="images" src="images/scissors.png"></button>
+</div>
+<p id="sysytem-choice">System Picked: </p>
+<div id="result">Start the game</div>
+<div class="reset">
+    <button class='restart' onclick="reset()">Reset</button>
+</div>
+<p id="total-games">Total Games Played: 0</p>
+<script src="app.js"></script>
+</body>
+</html>
